@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/email_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/username_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/mobile_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="mobile"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/address_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="address"
+        android:textSize="20sp"
+        android:onClick="users"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START ACTIVTY"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:onClick="logout"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/user_id_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/room_name_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="room name"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="create room"
+        android:onClick="createroom"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rooms"
+        android:onClick="showrooms"
+        />
+
+</LinearLayout>

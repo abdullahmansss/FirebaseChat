@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/chat_lin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/chat_lin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="vertical"
+        android:padding="15sp"
+        >
+
+        <TextView
+            android:id="@+id/msg_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Abdullah"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/msg_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="message body"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
